@@ -4,7 +4,11 @@ pipeline {
     }
 
     stages {
-        echo "202206071400"
+        stage('Time') {
+            steps {
+                echo "202206071400"
+            }
+        }
     }
 }
 
